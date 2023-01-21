@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+input, .btnSwitch, .btnSwitch1 {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.hide{
+    display: none;
+}
+
+.formerror{
+    color: red;
+}
+
+#submitBtn, .btnSwitch, #loginSubmit, .btnSwitch1{
+    width: 100px;
+    background-color: white;
+}
+
+#submitBtn:hover, .btnSwitch:hover, #loginSubmit:hover, .btnSwitch1:hover{
+    background-color:cornflowerblue;
+    
+}
