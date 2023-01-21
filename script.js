@@ -68,7 +68,7 @@ function validation() {
          
     }
     else{
-        errorMs(password1value, 'No match', 2);
+        errorMs(password1value, 'Passwords should have at least 1 capital letter, 1 small, 1 number and 1 special characters', 2);
         return false
 
     }
